@@ -11,6 +11,7 @@ When switching to powersave, the backlight will be turned down a bit (won't if x
 
 ******
 Usage:
-Execute it directly in a terminal, such as "./perfset.sh" "bash perfset.sh" "source perfset.sh".
+After getting the file, make it executable first by "chmod 755 ./perfset.sh".
+Then execute it directly in a terminal, such as "./perfset.sh" "bash perfset.sh" "source perfset.sh".
 
 Binding a shortcut key such as Fn+Q with the script may make it works like the performance key that Lenovo provided in Windows.
