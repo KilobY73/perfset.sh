@@ -10,7 +10,7 @@ When switching to performance, the backlight will be turned up a bit (won't if *
 When switching to powersave, the backlight will be turned down a bit (won't if *xbacklight* isn't installed).
 
 ******
-# Usage:
+# Usage
 1.Make the script executable first by `chmod 755 ./perfset.sh`.
 
 2.Change your *sudoers* file and add `%user ALL=(root)NOPASSWD:/usr/bin/cpupower` at the end of the file in order to make the governor can be changed without password.
